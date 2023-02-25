@@ -9,5 +9,6 @@ public class TesteJogador {
 		System.out.println(j1.isEnvenenado());
 		
 		System.out.println("Davi GitHub");
+		System.out.println("valeu big");
 	}
 }
