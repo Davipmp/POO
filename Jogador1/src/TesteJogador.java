@@ -7,5 +7,6 @@ public class TesteJogador {
 		JogadorUm j1 = new JogadorUm();
 		
 		System.out.println(j1.isEnvenenado());
+		System.out.println("sabadao");
 	}
 }
