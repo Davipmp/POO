@@ -1,16 +1,17 @@
 package loja_virtual;
 
 public class LojaVirtual {
-	
+
 	private String marca;
 	private String modelo;
 	public double valor;
 	public double desconto;
 	public double valorAtualizado;
-	
+
 	public LojaVirtual() {
-		
+
 	}
+
 	public double getValor() {
 		this.valor = valor;
 		return valor;
@@ -39,17 +40,18 @@ public class LojaVirtual {
 	public LojaVirtual(String marca, String modelo) {
 		this.marca = marca;
 		this.modelo = modelo;
-		this.valor = valor; 
+		this.valor = valor;
 	}
-	
+
 	public double getValoAtualizado() {
 		this.desconto = valor * 0.1;
-		valor -= desconto; 
+		valor -= desconto;
 		return valor;
 	}
-	
+
 	public double getDesconto() {
 		this.valor = desconto;
 		return valor;
 	}
+
 }

@@ -1,22 +1,23 @@
 package loja_virtual;
 
 public class DescontoPrimeiraCompra extends LojaVirtual {
-	
-	private double desconto;
-	
 
-	public double CalcularDesconto( String marca, String modelo, double desconto) {
+	private double desconto;
+	private double valorAtualizado;
+
+	public double CalcularDesconto(String marca, String modelo, double desconto) {
 		this.desconto = valor;
-		return valor; 
-	}
-	
-	public double calculaDesconto() {
-		this.desconto = valor * desconto;
-		return valor; 
+		return valor;
 	}
 
 	public double getDesconto() {
+		this.valor = desconto;
+		return valor;
+	}
+
+	public double getValoAtualizado() {
 		this.desconto = valor * 0.1;
-		return desconto;
+		valor -= desconto;
+		return valor;
 	}
 }
