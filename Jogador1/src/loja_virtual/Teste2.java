@@ -8,7 +8,7 @@ public class Teste2 {
 
 		var produto1 = new Produto("iPhone", new BigDecimal(1000.50));
 
-		var livro = new Livro("Java", new BigDecimal(100), "Eric Evans");
+		var livro = new Livro("Java", new BigDecimal(100), "Eric Bill");
 
 		var eletronico = new Eletronico("Tv", new BigDecimal(4000), "LG", "A21");
 
